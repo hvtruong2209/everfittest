@@ -1,0 +1,41 @@
+.container-exercises {
+  .exercise {
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #c1c7cd;
+    margin-bottom: 6px;
+    padding: 6px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    .name {
+      display: flex;
+      justify-content: end;
+      margin-bottom: 4px;
+      > div {
+        font-weight: 600;
+        max-width: 90%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+    .description {
+      display: flex;
+      justify-content: space-between;
+      .rep {
+        margin-left: 4px;
+        font-weight: 600;
+        color: #919cad;
+        font-size: 12px;
+      }
+      .infor {
+        font-size: 12px;
+        font-weight: 200;
+        max-width: 80%;
+        white-space: nowrap;
+        color: #7b848d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

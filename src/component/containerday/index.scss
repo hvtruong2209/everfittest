@@ -1,0 +1,40 @@
+.container-day {
+  display: flex;
+  flex-direction: column;
+  width: 179px;
+  background-color: #f6f7f9;
+  height: calc(85vh - 40px);
+  overflow-y: auto;
+  padding: 9px;
+  border-radius: 6px;
+  flex: 1;
+  .header-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    // color: #6a7987;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .icon-add {
+    border-radius: 50%;
+    font-weight: 700;
+    color: #fff;
+    background-color: #9fa8b2;
+    width: 18px;
+    height: 18px;
+    line-height: 15px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1521px) {
+  .container-day {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container-day {
+    width: 120px;
+  }
+}

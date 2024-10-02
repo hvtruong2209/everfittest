@@ -1,0 +1,26 @@
+.container-workout {
+  border: 1px solid #c1c7cd;
+  border-radius: 6px;
+  padding: 4px 3px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  background-color: #fdfdfe;
+  .workout-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6px;
+    font-weight: 600;
+    .workout-name {
+      color: #5b57cb;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: start;
+    }
+    .icon-dot {
+      margin-left: 10px;
+      line-height: 6px;
+      font-weight: 700;
+    }
+  }
+}
